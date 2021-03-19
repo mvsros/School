@@ -13,7 +13,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="parents-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
-
+    <?= $this->render('@app/modules/room/views/teacher/_menu') ?>
     <p>
         <?= Html::a('Create Parents', ['create'], ['class' => 'btn btn-success']) ?>
     </p>

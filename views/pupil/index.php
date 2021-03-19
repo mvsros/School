@@ -7,13 +7,15 @@ use yii\widgets\Pjax;
 /* @var $searchModel app\models\PupilSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Pupils';
+$this->title = 'Учні';
+$this->params['breadcrumbs'][] = ['label' => Yii::t('user', 'Кабінет'), 'url' => ['/room']];
+$this->params['breadcrumbs'][] = ['label' => Yii::t('user', 'Кабінет вчителя'), 'url' => ['/room/teacher/index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="pupil-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
-
+    <?= $this->render('@app/modules/room/views/teacher/_menu') ?>
     <p>
         <?= Html::a('Create Pupil', ['create'], ['class' => 'btn btn-success']) ?>
     </p>

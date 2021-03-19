@@ -13,7 +13,7 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="group-index">
 
     <h1><?= Html::encode($this->title) ?></h1>
-
+    <?= $this->render('@app/modules/room/views/teacher/_menu') ?>
     <p>
         <?= Html::a('Create Group', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
