@@ -37,13 +37,13 @@ use yii\bootstrap\Nav;
 //            'url'     => ['/filter/index'],
 //        ],
         [
-            'label'   => Yii::t('user', 'Скіли'),
-            'url'     => ['/skills/index'],
+            'label'   => Yii::t('user', 'Класи'),
+            'url'     => ['/group/index'],
         ],
-        [
-            'label'   => Yii::t('user', 'Терміни'),
-            'url'     => ['/skillskey/index'],
-        ],
+//        [
+//            'label'   => Yii::t('user', 'Терміни'),
+//            'url'     => ['/skillskey/index'],
+//        ],
 //        [
 //            'label'   => Yii::t('user', 'Соц. мережі'),
 //            'items'   => [

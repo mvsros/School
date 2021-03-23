@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <h2>Навчальні класи</h2>
         <p style="text-align: center; color: #0b93d5"><span style="font-size: 75px; " class="glyphicon glyphicon-send"></span></p>
         <p>Інформація про класи.</p>
-        <p> <a class="btn btn-default btn-lg" href="../../group/index"><span class="glyphicon glyphicon-random gi-3x"></span> Класи &raquo;</a></p>
+        <p> <a class="btn btn-default btn-lg" href="../../pupillesson/index"><span class="glyphicon glyphicon-random gi-3x"></span> Класи &raquo;</a></p>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <h2>Батьки</h2>
